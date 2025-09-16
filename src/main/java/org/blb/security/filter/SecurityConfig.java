@@ -60,8 +60,8 @@ public class SecurityConfig {
 
         CorsConfiguration corsConfig = new CorsConfiguration();
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        corsConfig.addAllowedOrigin("https://www.blblog.top/");
-        corsConfig.addAllowedOrigin("https://blblog.top/");
+        corsConfig.addAllowedOrigin("https://www.bundeslandblog.top/");
+        corsConfig.addAllowedOrigin("https://bundeslandblog.top/");
         corsConfig.addAllowedMethod("*");
         corsConfig.addAllowedHeader("*");
         corsConfig.setAllowCredentials(true);
